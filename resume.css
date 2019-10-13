@@ -1,0 +1,106 @@
+body{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+
+}
+
+img{
+  margin: 20px auto;
+  float: left;
+  margin-left: 176.571px;
+  display: inline-block;
+  border: 4px dashed blue ;
+}
+
+h1 {
+  text-align: center;
+  font-family: sans-serif;
+  color: Black;
+  letter-spacing: 3px;
+  margin: 0px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.first{
+  border: 4px dashed Black;
+  padding: 4px;
+  border-color: #20bcd5;
+  color: blue;
+  font-size: 1.2em;
+}
+
+.second{
+  font-family: sans-serif;
+  padding: 5px;
+  margin: 0px;
+  background-color: blue;
+  color: white;
+  font-size: 1.4em;
+}
+
+.header{
+  background-image: url("background1.jpg");
+  background-size: cover;
+  background-position: left;
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid blue;
+}
+
+
+.firstul{
+  list-style: none;
+  display: inline-block;
+  margin: 0px;
+}
+
+.firstul li{
+  padding:20px;
+  font-family: sans-serif;
+  font-weight:lighter;
+  font-size: 1.2em;
+}
+
+.firstul li:nth-child(odd){
+  float:left;
+  clear: both;
+  font-weight: bolder;
+  font-family: cursive;
+}
+
+.firstul li:nth-child(even){
+  float: left;
+  font-weight: lighter;
+  font-family: cursive;
+}
+
+#profile{
+  width: 970px;
+  margin-left: auto;
+ margin-right: auto;
+ padding-left: 15px;
+ padding-right: 15px;
+ padding-top: 10px;
+ background: white;
+ position: relative;
+ top : 150px;
+ border-bottom:3px solid blue;
+}
+
+
+
+#Aboutme{
+  margin-left: auto;
+ margin-right: auto;
+ padding :30px;
+ position: relative;
+ top: 230px;
+ text-align: center;
+ font-size: 1.6em;
+ font-family: sans-serif;
+ font-weight: 100;
+ border-top: 3px dashed blue;
+ border-bottom: 3px dashed blue;
+}
